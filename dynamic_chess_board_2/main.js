@@ -1,4 +1,6 @@
 //author: froginafog (Liang D.S.)
+//dynamic chess board
+//pair-wise color changing squares
 var canvas = document.getElementById("canvas_1");
 var context = canvas.getContext("2d");
 
