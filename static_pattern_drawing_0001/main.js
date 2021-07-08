@@ -1,3 +1,4 @@
+//author: froginafog (Liang D.S.)
 //To understand the control point in the command
 //context.quadraticCurveTo(control_point_x, control_point_y, end_point_x, end_point_y)
 //draw 2 tangent lines: 1 line tangent to the starting point of the curve 
