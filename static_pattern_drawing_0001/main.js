@@ -130,7 +130,6 @@ function main()
 		}
 		else
 		{
-
 			control_point_x = 1200;
 		}
 		control_point_y = end_point_y + 100;
@@ -191,11 +190,9 @@ function main()
 		if(i % 2 == 0)
 		{
 			control_point_y = 0;
-
 		}
 		else
 		{
-
 			control_point_y = 200;
 		}
 		control_point_x = end_point_x + 100;
@@ -255,13 +252,10 @@ function main()
 		context.strokeStyle = colors[i];
 		if(i % 2 == 0)
 		{
-
 			control_point_y = 1000;
-
 		}
 		else
 		{
-
 			control_point_y = 1200;
 		}
 		control_point_x = end_point_x + 100;
