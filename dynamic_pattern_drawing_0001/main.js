@@ -1,3 +1,4 @@
+//author: froginafog (Liang D.S.)
 var canvas = document.getElementById("canvas_1");
 var context = canvas.getContext("2d");
 
@@ -36,8 +37,6 @@ function draw_pattern()
 			context.moveTo(x_line, y_line);
 			x_line = x_line + dx_line;
 			num_passes = 0;
-			console.log(context.strokeStyle);
-			console.log(x_line, y_line);
 		}
 		else
 		{
