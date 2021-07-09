@@ -179,30 +179,4 @@ var interval;
 						
 interval = setInterval(my_animation, 10);						
 
-//get a random integer in the range min to max
-//min is inclusive
-//max in inclusive
-function get_random_integer(min, max)
-{
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-
-function get_random_color()
-{	
-	 var r = get_random_integer(0, 255);
-	 var b = get_random_integer(0, 255);
-	 var g = get_random_integer(0, 255);
- 	 var color;
- 	 
- 	 while(r == 255 && b == 255 & g == 255)
-	 {
-	 	r = get_random_integer(0, 255);
-		b = get_random_integer(0, 255);
-	    g = get_random_integer(0, 255);
-	 }
-	 
-	 color = "rgb(" + r + "," + b + "," + g + ")"; 
-
-	 return color;
-}
 
