@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			body
+			{
+				background: rgb(0, 0, 30);
+			}
+			#start_interval_1_button
+			{
+				position: absolute;
+				left: 1600px;
+				top: 400px;
+			}
+			#clear_interval_1_button
+			{
+				position: absolute;
+				left: 1720px;
+				top: 400px;
+			}
+			#start_interval_2_button
+			{
+				position: absolute;
+				left: 1600px;
+				top: 430px;
+			}
+			#clear_interval_2_button
+			{
+				position: absolute;
+				left: 1720px;
+				top: 430px;
+			}
+			#start_interval_3_button
+			{
+				position: absolute;
+				left: 1600px;
+				top: 460px;
+			}
+			#clear_interval_3_button
+			{
+				position: absolute;
+				left: 1720px;
+				top: 460px;
+			}
+			#start_interval_4_button
+			{
+				position: absolute;
+				left: 1600px;
+				top: 490px;
+			}
+			#clear_interval_4_button
+			{
+				position: absolute;
+				left: 1720px;
+				top: 490px;
+			}
+			#start_interval_5_button
+			{
+				position: absolute;
+				left: 1600px;
+				top: 520px;
+			}
+			#clear_interval_5_button
+			{
+				position: absolute;
+				left: 1720px;
+				top: 520px;
+			}
+			#start_all_intervals_button
+			{
+				position: absolute;
+				left: 1600px;
+				top: 850px;
+			}
+			#clear_all_intervals_button
+			{
+				position: absolute;
+				left: 1720px;
+				top: 850px;
+			}
+			#reset_button
+			{
+				position: absolute;
+				left: 1695px;
+				top: 880px;
+			}
+		</style>
+	</head>
+    <body>
+     	<canvas id="canvas_1" width="1500" height="950" style="border:1px solid gray;"> </canvas> 
+     	<button id="start_interval_1_button" onclick="start_interval_1();"> start interval 1 </button>
+     	<button id="clear_interval_1_button" onclick="clear_interval_1();"> clear interval 1 </button>
+     	<button id="start_interval_2_button" onclick="start_interval_2();"> start interval 2 </button>
+     	<button id="clear_interval_2_button" onclick="clear_interval_2();"> clear interval 2 </button>
+     	<button id="start_interval_3_button" onclick="start_interval_3();"> start interval 3 </button>
+     	<button id="clear_interval_3_button" onclick="clear_interval_3();"> clear interval 3 </button>
+     	<button id="start_interval_4_button" onclick="start_interval_4();"> start interval 4 </button>
+     	<button id="clear_interval_4_button" onclick="clear_interval_4();"> clear interval 4 </button>
+     	<button id="start_interval_5_button" onclick="start_interval_5();"> start interval 5 </button>
+     	<button id="clear_interval_5_button" onclick="clear_interval_5();"> clear interval 5 </button>
+     	<button id="start_all_intervals_button" onclick="start_all_intervals();"> start all intervals </button>
+     	<button id="clear_all_intervals_button" onclick="clear_all_intervals();"> clear all intervals </button>
+     	<button id="reset_button" onclick="reset();"> reset </button>
+     	<script src = "main.js"> </script>    
+    </body>
+</html>
