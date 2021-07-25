@@ -1,3 +1,4 @@
+//author: froginafog (Liang D.S.)
 var counterclockwise = true;
 var time_interval = 9;
 
