@@ -1,3 +1,5 @@
+//author: froginafog (Liang D.S.)
+
 function draw_line(context, x_line_start, y_line_start, x_line_end, y_line_end, line_color, line_width)
 {
 	context.beginPath();
@@ -322,14 +324,14 @@ function get_random_color()
 	 {
 	 	r = get_random_integer(0, 255);
 		g = get_random_integer(0, 255);
-	    b = get_random_integer(0, 255);
+	    	b = get_random_integer(0, 255);
 	 }
  	 
  	 while(r >= 254 && g >= 254 && b == 254)
 	 {
 	 	r = get_random_integer(0, 255);
 		g = get_random_integer(0, 255);
-	    b = get_random_integer(0, 255);
+	    	b = get_random_integer(0, 255);
 	 }
 
 	 return "rgb(" + r + "," + g + "," + b + ")"; 
