@@ -324,14 +324,14 @@ function get_random_color()
 	 {
 	 	r = get_random_integer(0, 255);
 		g = get_random_integer(0, 255);
-	    b = get_random_integer(0, 255);
+	    	b = get_random_integer(0, 255);
 	 }
  	 
  	 while(r >= 254 && g >= 254 && b == 254)
 	 {
 	 	r = get_random_integer(0, 255);
 		g = get_random_integer(0, 255);
-	    b = get_random_integer(0, 255);
+	    	b = get_random_integer(0, 255);
 	 }
 
 	 return "rgb(" + r + "," + g + "," + b + ")"; 
