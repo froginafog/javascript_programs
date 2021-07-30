@@ -1,3 +1,4 @@
+//author: froginafog (Liang D.S.)
 function main()
 {
 	for(var i = 0; i < 100000000; i++)
