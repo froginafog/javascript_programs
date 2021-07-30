@@ -1,3 +1,4 @@
+//author: froginafog (Liang D.S.)
 function main()
 {
 	document.body.style.backgroundColor = "black";
