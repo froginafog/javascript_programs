@@ -1,3 +1,4 @@
+//author: froginafog (Liang D.S.)
 function draw_line(x_line_start, x_line_end, y_line_start, y_line_end, context, line_width, line_color)
 {
 	context.beginPath();
