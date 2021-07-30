@@ -1,3 +1,4 @@
+//author: froginafog (Liang D.S.)
 function animate_line_left_to_right_counterclockwise(x_line_min, x_line_max, y_line_min, y_line_max ,x_line_tail, x_line_head, y_line_tail, y_line_head, canvas, context, line_length, line_width, line_color, interval)
 {
 	context.clearRect(0, 0, canvas.width, canvas.height);
