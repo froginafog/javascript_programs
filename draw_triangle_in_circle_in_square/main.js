@@ -1,3 +1,5 @@
+//author: froginafog (Liang D.S.)
+
 function draw_rectangle(x_top_left_corner, y_top_left_corner, 
                         width_rectangle, height_rectangle, 
                         context, line_width, line_color)
