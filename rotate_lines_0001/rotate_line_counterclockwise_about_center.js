@@ -1,3 +1,4 @@
+//author: froginafog (Liang D.S.)
 function rotate_line_counterclockwise_about_center(x_A, y_A, x_B, y_B, x_P, y_P, angle, dangle, 
                                		               canvas, context, line_width, line_color)
 {
