@@ -1,8 +1,9 @@
+//author: froginafog (Liang D.S.)
 function main()
 {
 	document.body.style.backgroundColor = "black";
 
-	//create canvas 1
+	//create canvas 
 	var canvas = document.getElementById("canvas");
 	var context = canvas.getContext("2d");
 	canvas.width = 1000;
