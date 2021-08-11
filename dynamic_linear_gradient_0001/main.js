@@ -1,3 +1,4 @@
+//author: froginafog (Liang D.S.)
 var canvas_1 = document.getElementById("canvas_1");
 var context_1 = canvas_1.getContext("2d");
 
